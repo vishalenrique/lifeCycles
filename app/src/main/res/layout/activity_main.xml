@@ -10,8 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.com.my.MainActivity">
 
-    <fragment
-        android:name="com.example.com.my.BlankFragment"
+    <FrameLayout
         android:id="@+id/textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />

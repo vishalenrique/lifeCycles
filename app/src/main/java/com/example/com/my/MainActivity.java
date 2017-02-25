@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.v("onCreate Activity","onCreate Activity");
+        getFragmentManager().beginTransaction().replace(R.id.textview,new BlankFragment()).commit();
     }
 
     @Override

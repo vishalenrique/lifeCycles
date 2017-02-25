@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 
-public class BlankFragment extends Fragment {
+public class BlankFragment extends android.app.Fragment {
     public BlankFragment() {
         // Required empty public constructor
     }
